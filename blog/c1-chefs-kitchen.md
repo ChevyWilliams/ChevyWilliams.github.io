@@ -9,7 +9,7 @@ I learned about Dev Bootcamp through another like-minded community that I belong
 
 Like my experience at Ei, during this first week of Phase 0, I have learned so much.  I have been challenged in ways that I haven't been in a long time and I have begun building connections.  I have to admit that I am a bit afraid of going through this program, but I don't feel alone.  And I know that's going to make all the difference.
 
-Learning to code is not not for everyone and sometimes I even doubt if it's for me.  I know those feelings will come.  But, with every nugget I learn, I'm that much more confident in my ability to do this - one line of code at a time.
+Learning to code is not for everyone and sometimes I even doubt if it's for me.  I know those feelings will come.  But, with every nugget I learn, I'm that much more confident in my ability to do this - one line of code at a time.
 
   
 
