@@ -1,0 +1,25 @@
+html {
+	background-image: url("imgs/wood-wall.png");
+	background-repeat: repeat-x;
+}
+
+#top {
+	text-align: center;
+	position: absolute;
+	top: 50px;
+	left: 400px;
+	font-family: sans-serif;
+}
+
+#id {
+	width: 50px;
+	height: 50px;
+}
+
+.sidebar {
+	font-family: sans-serif;
+}
+
+script {
+	position: relative;
+}

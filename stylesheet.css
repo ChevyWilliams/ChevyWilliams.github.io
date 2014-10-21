@@ -1,0 +1,45 @@
+html {
+	background-image: url("imgs/coffee.png");
+}
+
+input {
+	float: right;
+}
+
+h2 {
+	color: white;
+}
+
+h3 {
+	color: white;
+}
+
+li {
+	display: inline;
+	margin-right: 20px;
+}
+
+ul {
+	float: right;
+	margin-top: -40px;
+}
+
+div {
+	margin: 10px 10px 10px 10px;
+	padding: 10px;
+	display: inline;
+}
+
+div img {
+	margin-top: 82px;
+}
+
+.blog1 {
+	text-align: center;
+}
+
+
+footer {
+	position: fixed;
+	bottom: 10px;
+}

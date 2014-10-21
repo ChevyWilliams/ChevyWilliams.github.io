@@ -8,6 +8,11 @@ ul {
 	float: right;
 	margin-top: -40px;
 
-.blog1 {
-	text-align: center;
+.blog {
+    left: center;
+}
+
+footer {
+	position: fixed;
+	bottom: 10px;
 }
