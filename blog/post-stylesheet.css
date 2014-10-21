@@ -1,4 +1,6 @@
-
+html {
+	background-color: gray;
+}
 li {
 	display: inline;
 	margin-right: 20px;
