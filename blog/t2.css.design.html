@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="post-stylesheet.css">
+    <title>Chevy Williams' Blog</title>
+      <h1>Chevy Williams</h1>
+      <h2>Blog</h2>
+       <ul>
+        <li><a href="https://ChevyWilliams.github.io">Home</a></li>
+        <li><a href="https://ChevyWilliams.github.io/about.html">About</a></li>
+        <li><a href="https://ChevyWilliams.github.io/projects.html">Projects</a></li>
+        <li><a href="https://ChevyWilliams.github.io/blog-template.html">Blog</a></li>
+        <li><a href="https://ChevyWilliams.github.io/contact.html">Contact</a></li>
+       </ul>
+  </head>
+
+  <body>
+    <div class="image">
+      <img src="##"/>
+    </div>
+    <div class="blog1">
+      <h3>The What and When of Ids and Classes</h3>
+      <p>When designing your webpage, you will obviously want to apply some style to it.  Your .html file is where you lay out all the content and your .css file or stylesheet is where you make your content look nice and pretty.
+      
+      One of the first things you will realize when using stylesheets is that you need a way to tell it which piece of content you want to apply a particular style to.  The html tags you used become what we call "selectors" in your .css file, because they are selecting the piece of content to which you'll manipulate.
+       
+      Sometimes, using the tag is enough.  For example, you can select your h3 tag and make the font color red. This would make every h3 header in your file red.  But, say you don't want that, you just want the first h3 header to be red and leave the other h3 headers black.  That's when you would use Id.  Think of Id as a unique identifier for a tag.  You can select it and apply style to only that tag.  To do this you would write in your html file:
+
+       <img src="imgs/code-html.png">
+
+       And in your accompanying .css file, you would put:
+
+       <img src="imgs/code-css.png">
+
+       Classes are something you use when you want to apply styling to a set of tags.  Here is an example I've pulled from my own code:
+
+       <img src="imgs/class-html.png">
+       <img src="imgs/class-css.png">
+
+       First, I applied the class to a group of headers and named it "sidebar, then styled those headers the same way - applying sans-serif font.
+
+       It is important to note that you can use a class multiple times in the same html file.  So if I wanted another section of content to have sans-serif font, I could apply that same class.  Ids are unique and you can only have one id of the same name in a document.
+
+       I hope this has been helpful in providing a sense of how ids and classes should be used.  Style on!
+       </p>
+    </div>
+
+     <footer>Copyright. Chevy Williams, 2014</footer>
+  </body>
+</html>
