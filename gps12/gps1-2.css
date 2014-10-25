@@ -1,5 +1,5 @@
   
-        html {
+        body {
         	background-color: gray;
         }
 
@@ -10,16 +10,17 @@
 
         ul {
             float: right;
-            margin-top: -40px;
+            margin-top: 0px;
+        }
 
         h1, h3, p {
-        	font-family:sans-serif;
-        }  
+            font-family: sans-serif;
+        }
 
         img {
-        	width:450px;
+        	float: right;
+            width:450px;
             height:300px;
-            float:right;
             border: 1px solid white;
             margin-right: 50px;
         }
