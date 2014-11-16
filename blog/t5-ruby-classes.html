@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="post-stylesheet.css">
+    <title>Chevy Williams' Blog</title>
+      <h1>Chevy Williams</h1>
+      <h2>Blog</h2>
+       <ul>
+        <li><a href="https://ChevyWilliams.github.io">Home</a></li>
+        <li><a href="https://ChevyWilliams.github.io/about.html">About</a></li>
+        <li><a href="https://ChevyWilliams.github.io/projects.html">Projects</a></li>
+        <li><a href="https://ChevyWilliams.github.io/blog-template.html">Blog</a></li>
+        <li><a href="https://ChevyWilliams.github.io/contact.html">Contact</a></li>
+       </ul>
+  </head>
+
+  <body>
+    <div class="image">
+      <img src="##"/>
+    </div>
+    <div class="blog">
+      <h3>Working with Classes in Ruby</h3>
+      <h5>Nov 15, 2014</h5>
+      <p>Classes opened up my world these past couple weeks. To be able to create your own objects and define their functions is pretty cool. In this post, I'm going to break down what I've learned about classes.
+
+      First, like most everything, a class is an object. As an object, a class has certain properties and things it can do. We can create classes in Ruby and give them a collection of properties and functions.
+      For example, one of the classes we worked on this week was a Die. It has sides with numbers and when rolled, lands randomly on a side displaying a number. We created a class to model this.  But let's go through another example.
+
+      I love dogs, but unfortunately they're not allowed in my building. We can create a class Dog and model its features and behaviors through instance variables and methods, respectively. Dogs have many characteristics, but let's say we want to "instantiate" (or create a class with instances of) barking and tails that wag.  
+
+        <p> class Dog </p>
+
+        <p> def initialize </p>
+        <p>   @tail = tail </p>
+        <p> end </p>
+
+        <p> def wag </p>
+        <p>   @tail </p>
+        <p>   puts "wagging"</p>
+        <p> end </p>
+
+        <p> def bark </p>
+        <p>   puts "woof"</p>
+        <p> end </p>
+        <p> end </p>
+
+      <p>Above, we initialize a class called dog that will create an object with a tail each time a new instance of Dog is created.  The @ sign in front of tail denotes it as an instance variable and makes that variable available to all dogs.  We can make that tail wag by defining wag so that when we call the wag method, we'll see "wagging."  The same goes for defining bark as "woof."</p>
+
+      <p>From this short example, you can get the sense that the ability to create classes is central to programming in Ruby because it allows for unlimited extension of objects that can be manipulated to build sophisticated programs. 
+      </p>
+    </div>
+
+     <footer>Copyright. Chevy Williams, 2014</footer>
+  </body>
+</html>
